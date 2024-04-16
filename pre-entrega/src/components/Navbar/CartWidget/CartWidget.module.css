@@ -1,0 +1,11 @@
+.cartLogo {
+  font-size: 1.2rem;
+  margin-top: 3px;
+  margin-left: 15px;
+  transition: color 0.3s ease-out;
+}
+
+.cartLogo:hover {
+  color: #3498db;
+  cursor: pointer;
+}

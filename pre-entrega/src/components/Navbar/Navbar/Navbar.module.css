@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  background-color: #fff;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 50px;
+  overflow: hidden;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+  justify-self: start;
+  margin-left: 20px;
+}
+
+.ulNav {
+  list-style: none;
+  display: flex;
+  justify-self: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.navItem a {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.3s ease-out;
+  font-size: larger;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.navItem a:hover {
+  color: #3498db;
+}
