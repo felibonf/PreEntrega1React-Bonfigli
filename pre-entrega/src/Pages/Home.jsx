@@ -1,8 +1,11 @@
-import styles from "./ItemListContainer.module.css";
+//import { Layout } from "../components/Navbar/Layouts/Layout";
+//import { ItemListContainer } from "../components/Navbar/ItemListContainer/ItemListContainer";
+import styles from "./Home.module.css";
 
-export const ItemListContainer = () => {
+export const Home = () => {
   const greeting = "Bienvenido a perfumerias Marovi!";
   const defaultTitle = "Defaul Title";
+
   return (
     <main className={styles.main}>
       <section className={styles.headline}>
@@ -12,5 +15,3 @@ export const ItemListContainer = () => {
     </main>
   );
 };
-
-export default ItemListContainer;

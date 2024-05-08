@@ -1,4 +1,5 @@
-import CartWidget from "../CartWidget/CartWidget";
+import { Link } from "react-router-dom";
+import CartWidget from "../../CartWidget/CartWidget";
 import styles from "./Navbar.module.css";
 import logo from "./logo.webp";
 
@@ -9,16 +10,16 @@ export const Navbar = () => {
         <img src={logo} className={styles.logo} alt="" />
         <ul className={styles.ulNav}>
           <li className={styles.navItem}>
-            <a href="#">Inicio</a>
+            <Link to="/">Home</Link>
           </li>
           <li className={styles.navItem}>
-            <a href="#">Nosotros</a>
+            <Link to="/productos">Productos</Link>
           </li>
           <li className={styles.navItem}>
-            <a href="#">Perfumes</a>
+            <Link to="/category/perfumes">Perfumes</Link>
           </li>
           <li className={styles.navItem}>
-            <a href="#">Cremas</a>
+            <Link to="/category/cremas">Cremas</Link>
           </li>
         </ul>
       </nav>

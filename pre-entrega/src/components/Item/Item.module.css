@@ -1,0 +1,114 @@
+.figure {
+  font-family: "Raleway", Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  background: #ffffff;
+  text-align: left;
+  color: #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-perspective: 20em;
+  perspective: 20em;
+}
+
+.figure img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+}
+
+.cart {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-right: 10px;
+  color: #0a0000;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  height: 20px;
+  opacity: 0;
+  background-color: #bdbdc0;
+  -webkit-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+  -webkit-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+}
+
+.cart i {
+  display: inline-block;
+  margin-right: 10px;
+  width: 8px;
+  line-height: 80px;
+  text-align: center;
+  background-color: #661616;
+  color: #ffffff;
+  font-size: 1.4em;
+}
+
+.figcaption {
+  padding: 20px;
+}
+
+.figure h3 {
+  text-align: center;
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.figure p {
+  text-align: center;
+  margin: 0;
+  color: #bdbdc0;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.price {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5em;
+  line-height: 48px;
+  letter-spacing: 1px;
+}
+
+.h4 {
+  margin-right: 5px;
+  opacity: 0.5;
+  font-size: 0.9em;
+}
+
+.link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.figure:hover .cart,
+.figure.hover .cart {
+  opacity: 1;
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+
+.figure:hover .cart i,
+.figure.hover .cart i {
+  background-color: #b92929;
+}
