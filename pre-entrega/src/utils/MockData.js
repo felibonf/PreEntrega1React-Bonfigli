@@ -50,6 +50,36 @@ export const products = [
       "https://rougeb2car.vtexassets.com/arquivos/ids/183721-800-auto?v=637824632649930000&width=800&height=auto&aspect=true",
   },
   {
+    id: 6,
+    name: "Burberry: Brit For Her EDP 100ml",
+    description:
+      "Burberry Brit para Her Eau de Parfum, una fragancia floral confitada, sensual y adictiva. Crujiente, pera helada, almendra azucarada y vainilla intensa.",
+    price: "166.000",
+    category: "perfumes",
+    image:
+      "https://simplicityar.vtexassets.com/arquivos/ids/160535-800-auto?v=638205553988000000&width=800&height=auto&aspect=true",
+  },
+  {
+    id: 7,
+    name: "Kenzo: Flower Ikebana EDP 75ml",
+    description:
+      " Este Eau de Parfum para mujer se encuentra en la encrucijada de dos estéticas: la composición floral y la creatividad olfativa. La perfumista Alexandra Monet y el maestro perfumista Alberto Morillas han escrito este nuevo capítulo perfumado en la historia de Flower by Kenzo.",
+    price: "180.000",
+    category: "perfumes",
+    image:
+      "https://farmaciadelpuebloar.vtexassets.com/arquivos/ids/172731-800-800?v=638453316705670000&width=800&height=800&aspect=true",
+  },
+  {
+    id: 8,
+    name: "Ralph Lauren: Romance EDP Intense 100ml",
+    description:
+      " Envuelto en maderas decadentes y sensuales, el efecto inimitable y poderoso es una libertad cruda que te inspira a dejarte llevar. Inspirada en la mujer que se atreve a abrazar nuevas aventuras y perderse en el romance.",
+    price: "220.000",
+    category: "perfumes",
+    image:
+      "https://rougeb2car.vtexassets.com/arquivos/ids/211251-800-auto?v=638445720638200000&width=800&height=auto&aspect=true",
+  },
+  {
     id: 1001,
     name: "Dermaglos: crema corporal",
     description:
@@ -74,7 +104,7 @@ export const products = [
     name: "Pond's: crema facial humectante",
     description:
       "Especialmente formulada con una mezcla de extractos y nutrientes botánicos naturales, la crema Nutritiva Humectante Pond's Crema S nutre tu piel desde adentro hasta por 48 horas para que esté suave y saludable. ",
-    price: "2.800",
+    price: "3.000",
     category: "cremas",
     image:
       "https://perfugroupar.vtexassets.com/arquivos/ids/197722-800-auto?v=638409345613070000&width=800&height=auto&aspect=true",
@@ -84,7 +114,7 @@ export const products = [
     name: "L'oreal Paris: Crema Facial Noche",
     description:
       "La Crema Revitalift de noche, formulada con ácido hialurónico, hidrata profundamente, hasta el punto de rellenar las líneas de expresión. Tras solo un día de aplicación, la piel se siente más hidratada y suave. ",
-    price: "14.950",
+    price: "14.000",
     category: "cremas",
     image:
       "https://perfugroupar.vtexassets.com/arquivos/ids/187687-800-auto?v=638198451675330000&width=800&height=auto&aspect=true",
@@ -94,10 +124,30 @@ export const products = [
     name: "Nivea: Crema Revitalizante Antiarrugas",
     description:
       "La Crema facial revitalizante NIVEA Antiarrugas 45+ proporciona firmeza, gracias al Aceite de Semillas de Damasco; previene el envejecimiento por su ingrediente antiedad; y filtros UV que la protegen contra el sol. ",
-    price: "11.750",
+    price: "11.000",
     category: "cremas",
     image:
       "https://perfugroupar.vtexassets.com/arquivos/ids/202699-800-auto?v=638491530813200000&width=800&height=auto&aspect=true",
+  },
+  {
+    id: 1006,
+    name: "Sri Sri Tattva: Crema Facial Fortificante",
+    description:
+      "La crema facial de día, surge de una combinación de hierbas que protegen tu piel de los efectos nocivos de la contaminación del sol. Sus propiedades hidratantes humectan la piel y previenen su envejecimiento prematuro.",
+    price: "13.000",
+    category: "cremas",
+    image:
+      "https://perfugroupar.vtexassets.com/arquivos/ids/185713-800-auto?v=638145691412170000&width=800&height=auto&aspect=true",
+  },
+  {
+    id: 1007,
+    name: "Dorothy Gray: Crema Anti Age De Noche",
+    description:
+      "Crema Anti age de Noche con Calcio, vitamina C y complejo de minerales, libre de parabenos. Recomendada para todo tipo de piel , especialmente para pieles sensibles y maduras con lineas de expresion profundas. Tratamiento Anti Age ideal para pieles + 65 años. ",
+    price: "19.000",
+    category: "cremas",
+    image:
+      "https://www.dorothygray.com.ar/uploads/imagenes/THUMB_209033949.png",
   },
 ];
 

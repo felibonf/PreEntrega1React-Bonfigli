@@ -1,8 +1,37 @@
-# React + Vite
+# Proyecto de React.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un trabajo realizado para el curso de React.js de Coderhouse. La idea fue realizar un e-commerce sobre una perfumeria, luego con varias correcciones y mas conocimientos adquiridos la idea es poder utilizar este proyecto.
 
-Currently, two official plugins are available:
+## Herrramientas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Todos los estilos fueron aplicados en un style.module
+- Se utilizo una base de datos externa en firebase
+- Se aplico la utilizacion de un context
+- Se respeta una navegacion de Simple-page app
+
+## Deployment
+
+Sigue los siguientes pasos para poder realizar el deploy del proyecto en tu pc:
+
+Paso 1:
+
+```bash
+  cd pre-entrega
+```
+
+Paso 2:
+
+```bash
+  npm install
+```
+
+Paso 3:
+
+```bash
+  npm run dev
+```
+
+## Dependencias
+
+- Firebase
+- Sweetalert

@@ -21,6 +21,9 @@ export const Navbar = () => {
           <li className={styles.navItem}>
             <Link to="/category/cremas">Cremas</Link>
           </li>
+          <li className={styles.navItem}>
+            <Link to="/category/cart">Carrito</Link>
+          </li>
         </ul>
       </nav>
       <CartWidget />

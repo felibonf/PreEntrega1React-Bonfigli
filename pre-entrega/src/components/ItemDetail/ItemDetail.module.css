@@ -56,16 +56,3 @@
   color: #444;
   margin-bottom: 1.4rem;
 }
-
-.card_agregar {
-  display: inline-block;
-  background-color: limegreen;
-  color: #000;
-  text-decoration: none;
-  padding: 1.05rem 2rem;
-}
-
-.card_agregar:hover {
-  background-color: green;
-  color: #fff;
-}

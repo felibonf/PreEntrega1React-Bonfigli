@@ -1,10 +1,16 @@
 /* eslint-disable react/prop-types */
-import { Link } from "react-router-dom";
+/*import { Link } from "react-router-dom";*/
 import styles from "./ItemDetail.module.css";
+import { useCartContext } from "../../context/CartContext";
+import { ItemCount } from "../ItemCount/ItemCount";
 
-export const ItemDetail = ({ name, description, price, image, category }) => {
-  const handleOnClick = () => {
-    console.log("click");
+export const ItemDetail = (item) => {
+  const { name, description, price, category, image } = item;
+
+  const { addToCart } = useCartContext();
+
+  const handlleAddToCart = (cantItems) => {
+    addToCart(item, cantItems);
   };
   return (
     <div className={styles.wrapper}>
@@ -20,9 +26,9 @@ export const ItemDetail = ({ name, description, price, image, category }) => {
             <span>$</span>
             {price}
           </p>
-          <Link className={styles.card_agregar} to="#" onClick={handleOnClick}>
-            Agregar al carrito
-          </Link>
+          <div className={styles.card_count}>
+            <ItemCount initial={1} handlleAddToCart={handlleAddToCart} />
+          </div>
         </div>
       </div>
     </div>
